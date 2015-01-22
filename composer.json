@@ -1,0 +1,27 @@
+{
+    "name": "nextcompany/toast",
+    "description": "Um CMS criado para o gerenciamento de sites simples.",
+    "authors": [
+        {
+            "name": "Rafael Guimarães",
+            "email": "rafaelguimaraesweb@gmail.com"
+        },
+        {
+            "name": "Ruan Aragão",
+            "email": "ruanaragao2@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Nextcompany\\Toast\\": "src/Toast/"
+        }
+    },
+    "minimum-stability": "stable"
+}
