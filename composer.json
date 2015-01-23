@@ -17,10 +17,12 @@
     },
     "autoload": {
         "classmap": [
-            "src/migrations"
+            "src/migrations",
+            "src/controllers",
+            "src/config"
         ],
-        "psr-4": {
-            "Nextcompany\\Toast\\": "src/Toast/"
+        "psr-0": {
+            "NextCompany\\Toast": "src/"
         }
     },
     "minimum-stability": "stable"
